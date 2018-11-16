@@ -12,10 +12,11 @@ namespace XMLSerializerApiTests.Integration.Controller.Data
 {
     public class UpdoadDataIntegrationTest
     {
+        const string _apiDataUrl = "http://localhost:58010/";
         IDataApi _api;
         public UpdoadDataIntegrationTest()
         {
-            _api = RestClient.For<IDataApi>("http://localhost:58010/");
+            _api = RestClient.For<IDataApi>(_apiDataUrl);
         }
 
         public interface IDataApi

@@ -9,10 +9,12 @@ namespace XMLSerializerApiTests.Integration.Controller.Data
 {
     public class SaveFilesIntegrationTest
     {
+        const string _apiDataUrl = "http://localhost:58010/";
+
         IDataApi _api;
         public SaveFilesIntegrationTest()
         {
-            _api = RestClient.For<IDataApi>("http://localhost:58010/");
+            _api = RestClient.For<IDataApi>(_apiDataUrl);
         }
 
         public interface IDataApi
