@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerializerApi", "XMLSerializerApi\XMLSerializerApi.csproj", "{0AB1525E-C0B9-45FF-9241-229AA5F52A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerializerCommon", "XMLSerializerCommon\XMLSerializerCommon.csproj", "{35EE644A-86E1-4334-88AC-377EAC5D89B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerializerConsole", "XMLSerializerConsole\XMLSerializerConsole.csproj", "{92107919-353B-449F-8BBC-C5505A8186A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerializerApiTests", "XMLSerializerApiTests\XMLSerializerApiTests.csproj", "{F66B30EC-9260-4517-AADF-6CCD5A92CAE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AB1525E-C0B9-45FF-9241-229AA5F52A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB1525E-C0B9-45FF-9241-229AA5F52A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB1525E-C0B9-45FF-9241-229AA5F52A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB1525E-C0B9-45FF-9241-229AA5F52A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EE644A-86E1-4334-88AC-377EAC5D89B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EE644A-86E1-4334-88AC-377EAC5D89B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EE644A-86E1-4334-88AC-377EAC5D89B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EE644A-86E1-4334-88AC-377EAC5D89B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92107919-353B-449F-8BBC-C5505A8186A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92107919-353B-449F-8BBC-C5505A8186A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92107919-353B-449F-8BBC-C5505A8186A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92107919-353B-449F-8BBC-C5505A8186A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66B30EC-9260-4517-AADF-6CCD5A92CAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66B30EC-9260-4517-AADF-6CCD5A92CAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66B30EC-9260-4517-AADF-6CCD5A92CAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66B30EC-9260-4517-AADF-6CCD5A92CAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25474BFD-DE83-44D2-B5CB-E5A586769D39}
+	EndGlobalSection
+EndGlobal
